@@ -214,6 +214,10 @@ delta_years_str = [
     f"{int(y)}-{y+1}" for y in range(first_year_available, last_year_available)
 ]
 
+# ----------------------------
+# Load data
+# ----------------------------
+
 df = pd.read_parquet(
     f"data/intermediate_data/df_merged_all_infos_{first_year_available}_{last_year_available}.parquet"
 )

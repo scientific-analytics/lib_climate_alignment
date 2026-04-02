@@ -482,7 +482,7 @@ if adjustment_4:
 
 
 # montrer le tableau des stats
-st.write("**Emissions growth rate after adjustment - statistics**")
+st.write("**Average emissions growth rate after adjustment - statistics**")
 
 df_adjusted["average_rate"] = df_adjusted[delta_years_str].mean(axis=1)
 
